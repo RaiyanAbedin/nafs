@@ -144,7 +144,7 @@ Prayer times are resolved in batches and read locally from then on. A cold open 
 
 Storage is bounded rather than append-only: a short trailing window is retained for context and older days are evicted, so a year of use costs roughly what a month does.
 
-There is **no Nafs backend**. No accounts, no sign-up, no server holding your prayer history. That isn't a privacy slogan bolted on afterwards — earlier builds had server-side infrastructure for background refresh, and it was removed once it stopped earning its complexity.
+**There is no account.** Nothing to sign up for, nothing to verify, no identity your prayer history hangs off. That's a product decision before it's a technical one — an app built around a private act of worship shouldn't need to know who you are in order to work.
 
 ### Working inside an extension's budget
 
