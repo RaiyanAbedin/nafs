@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/brand/logomark.png" width="72" alt="Nafs">
+<img src="assets/brand/app-icon.png" width="80" alt="Nafs app icon">
 
 # nafs
 
